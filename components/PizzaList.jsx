@@ -6,9 +6,7 @@ const PizzaList = ({pizzaList}) => {
     <div className={styles.container}>
       <h1 className={styles.title}>{pizzaList.title}</h1>
       <p className={styles.desc}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit arcu
-        in pretium molestie. Interdum et malesuada fames acme. Lorem ipsum dolor
-        sit amet, consectetur adipiscing elit.
+       Welcome to Pizza Order prepared for you by LayMui.
       </p>
       <div className={styles.wrapper}>
       { pizzaList.map((pizza) => (
