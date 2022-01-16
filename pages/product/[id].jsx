@@ -64,6 +64,7 @@ const Product = ({pizza}) => {
               id={option.text}
               name={option.text}
               className={styles.checkbox}
+  
               onChange={(e)  => handleChange(e, option)}
             />
             <label htmlFor="double">{option.text}</label>
@@ -73,7 +74,8 @@ const Product = ({pizza}) => {
         </div>
         <div className={styles.add}>
             <input type="number" defaultValue={1} className={styles.quantity}/>
-            <button className={styles.button}>Add to Cart</button>
+            <button data-testid="AddToCart" className={styles.button}>Add to Cart</button>
+            
         </div>
       </div>
     </div>
