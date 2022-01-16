@@ -74,7 +74,7 @@ const Product = ({pizza}) => {
         </div>
         <div className={styles.add}>
             <input type="number" defaultValue={1} className={styles.quantity}/>
-            <button data-testid="AddToCart" className={styles.button}>Add to Cart</button>
+            <button className={styles.button}>Add to Cart</button>
             
         </div>
       </div>
