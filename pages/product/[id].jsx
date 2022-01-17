@@ -6,7 +6,8 @@ import axios from "axios";
 const Product = ({pizza}) => {
   const [size, setSize] = useState(0);
   const [price, setPrice] = useState(pizza.prices[0]);
-  
+  const [extras, setExtras] = useState([]);
+  const [quantity, setQuantity] = useState(1);
 
   const changePrice = (number) => {
     setPrice(price + number);
@@ -24,10 +25,14 @@ const Product = ({pizza}) => {
 
     if(checked) {
       changePrice(option.price)
+      setExtras((prev) => [...prev, option])
     } else {
       changePrice(-option.price)
+      setExtras(extras.filter((extra)=> extra._id !== option._id ))
     }
   }
+
+  console.log(extras)
  
   return (
     <div className={styles.container}>
@@ -73,7 +78,10 @@ const Product = ({pizza}) => {
          
         </div>
         <div className={styles.add}>
-            <input type="number" data-testid="quantity" defaultValue={1} className={styles.quantity}/>
+            <input 
+              // @ts-ignore
+              onChange={(e)=>setQuantity(e.target.value)} 
+              type="number" data-testid="quantity" defaultValue={1} className={styles.quantity}/>
             <button data-testid="AddToCart" className={styles.button}>Add to Cart</button>
             
         </div>
