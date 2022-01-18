@@ -38,3 +38,11 @@ Todo List:
 2. 
 
 Reference: https://www.youtube.com/watch?v=Z-hACIsjv4E&t=2355s
+
+Deploy the heruko
+In the project root folder, run
+```
+heroku create
+```
+
+reference: https://devcenter.heroku.com/articles/git
