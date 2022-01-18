@@ -35,7 +35,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 Todo List: 
 1. Next.js Rest API with MongoDB
-2. 
+2. Next.js Redux Toolkit 
+3. Next.js Paypal Integration (TODO)
 
 Reference: https://www.youtube.com/watch?v=Z-hACIsjv4E&t=2355s
 
