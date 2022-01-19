@@ -15,8 +15,10 @@ const cartSlice = createSlice({
         }, 
         reset: (state) => {
         
-            // @ts-ignore
-            state = initialState;
+            state.products = [];
+            state.quantity = 0;
+            state.total = 0;  
+           // state = initialState;
         },
     },
 });
