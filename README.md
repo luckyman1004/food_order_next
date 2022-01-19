@@ -45,6 +45,7 @@ https://www.youtube.com/watch?v=Z-hACIsjv4E&t=2355s
 
 https://paypal.github.io/react-paypal-js/?path=/docs/example-paypalbuttons--default
 
+https://developer.paypal.com/
 
 Deploy the heruko
 In the project root folder, run
