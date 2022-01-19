@@ -36,9 +36,15 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 Todo List: 
 1. Next.js Rest API with MongoDB
 2. Next.js Redux Toolkit 
-3. Next.js Paypal Integration (TODO)
+3. Next.js Paypal Integration 
+4. Cash payment food ordering (TODO)
 
-Reference: https://www.youtube.com/watch?v=Z-hACIsjv4E&t=2355s
+Reference: 
+
+https://www.youtube.com/watch?v=Z-hACIsjv4E&t=2355s
+
+https://paypal.github.io/react-paypal-js/?path=/docs/example-paypalbuttons--default
+
 
 Deploy the heruko
 In the project root folder, run

@@ -5,7 +5,9 @@ import Link from "next/link";
 import { STATES } from "mongoose";
 
 const Navbar = () => {
-  const quantity = useSelector((state) => state.quantity);
+  // @ts-ignore
+  const quantity = useSelector((state) => state.cart.quantity);
+ 
   return (
     <div className={styles.container}>
       <div className={styles.item}>
