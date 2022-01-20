@@ -37,7 +37,9 @@ Todo List:
 1. Next.js Rest API with MongoDB
 2. Next.js Redux Toolkit 
 3. Next.js Paypal Integration 
-4. Cash payment food ordering (TODO)
+4. Cash payment food ordering 
+5. Next.js Admin Dashboard
+6. Next.js Cookie Auth
 
 Reference: 
 
@@ -48,6 +50,9 @@ https://paypal.github.io/react-paypal-js/?path=/docs/example-paypalbuttons--defa
 https://developer.paypal.com/
 
 https://marketplace.visualstudio.com/items?itemName=xabikos.ReactSnippets
+
+Tips and Tricks
+Cmd+Shift+L or Cmd+Ctrl+G on Mac
 
 Deploy the heruko
 In the project root folder, run
