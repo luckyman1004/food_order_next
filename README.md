@@ -47,6 +47,8 @@ https://paypal.github.io/react-paypal-js/?path=/docs/example-paypalbuttons--defa
 
 https://developer.paypal.com/
 
+https://marketplace.visualstudio.com/items?itemName=xabikos.ReactSnippets
+
 Deploy the heruko
 In the project root folder, run
 ```
