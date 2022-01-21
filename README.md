@@ -41,6 +41,7 @@ Todo List:
 5. Next.js Admin Dashboard
 6. Next.js Cookie Auth
 7. Add New Product
+8. React/Next.js Upload Image with Cloudinary
 
 Reference: 
 
