@@ -40,6 +40,7 @@ Todo List:
 4. Cash payment food ordering 
 5. Next.js Admin Dashboard
 6. Next.js Cookie Auth
+7. Add New Product
 
 Reference: 
 

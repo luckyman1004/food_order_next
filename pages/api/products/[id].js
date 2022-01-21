@@ -24,7 +24,9 @@ export default async function handler(req, res) {
   if (method === 'PUT') {
     try {
 
-      const product = await Product.create(req.body);
+      const product = await Product.findByIdAndUpdate(id, req.body, {
+          new: true,
+      });
       res.status(201).json(product)
     } catch(err) {
         res.status(500).json(err);
