@@ -43,6 +43,14 @@ Todo List:
 7. Add New Product
 8. React/Next.js Upload Image with Cloudinary
 
+brew install vercel-cli
+
+Command to pull the values from your Project Settings into your local file.
+ 
+```
+vercel env pull
+```
+
 Reference: 
 
 https://www.youtube.com/watch?v=Z-hACIsjv4E&t=2355s
